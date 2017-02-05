@@ -3,12 +3,12 @@ using System.Collections;
 
 public class Player_Corridor : MonoBehaviour
 {
-    void OnCollisionEnter(Collision other)
+    void OnControllerColliderHit(ControllerColliderHit other)
     {
         if (other.gameObject.tag == "Mirror1")
         {
+            //transform.Rotate()
             print("should hit mirror");
-            transform.eulerAngles = new Vector3(transform.eulerAngles.x, -transform.eulerAngles.y, transform.eulerAngles.z);
         }
     }
 }
