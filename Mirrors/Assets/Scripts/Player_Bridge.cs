@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerTest1 : MonoBehaviour
+public class Player_Bridge : MonoBehaviour
 {
     [SerializeField] Transform spawnPoint;
 

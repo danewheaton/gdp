@@ -1,1 +1,4 @@
 Mirrors/Library/
+*.csproj
+*.sln
+Mirrors/Temp/
