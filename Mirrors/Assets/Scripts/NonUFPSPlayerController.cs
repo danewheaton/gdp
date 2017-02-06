@@ -6,7 +6,7 @@ using System.Collections;
 
 public class NonUFPSPlayerController : MonoBehaviour
 {
-    [SerializeField] float cameraSensitivityX = 5, cameraSensitivityY = 3, movementSpeed = 5;
+    public float cameraSensitivityX = 5, cameraSensitivityY = 3, movementSpeed = 2;
     
     Rigidbody rb;
 
