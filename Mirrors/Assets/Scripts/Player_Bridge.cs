@@ -10,6 +10,7 @@ public class Player_Bridge : MonoBehaviour
         if (other.tag == "FallTrigger")
         {
             transform.position = spawnPoint.position;
+            transform.eulerAngles = new Vector3(transform.eulerAngles.x, -transform.eulerAngles.y, transform.eulerAngles.z);
         }
     }
 }
