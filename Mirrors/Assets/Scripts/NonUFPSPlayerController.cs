@@ -26,6 +26,8 @@ public class NonUFPSPlayerController : MonoBehaviour
     {
         LookHorizontal();
         LookVertical();
+
+        if (Input.GetKeyDown(KeyCode.Escape)) Cursor.visible = true;
     }
 
     void FixedUpdate()

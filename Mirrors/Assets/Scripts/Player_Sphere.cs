@@ -1,15 +1,77 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
+using System.Collections.Generic;
 
-public class Player_Sphere : MonoBehaviour {
+public enum GameStates { START, GREEN_PILLARS }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+public class Player_Sphere : MonoBehaviour
+{
+    [SerializeField]
+    GameObject fakeInnerSphere, fakeOuterSphere, finalCube, middlePillar, ramp01;
+
+    [SerializeField]
+    GameObject[] twoMorePillars;
+
+    [SerializeField]
+    Material red, green;
+
+    GameStates currentState;
+
+    List<GameObject> greenPillars = new List<GameObject>();
+    int greenCubesCollected;
+
+    void Update()
+    {
+        switch (currentState)
+        {
+            case GameStates.START:
+                if (greenPillars.Count >= 3)
+                {
+                    foreach (GameObject g in twoMorePillars) g.SetActive(true);
+                    ramp01.SetActive(true);
+                    middlePillar.SetActive(false);
+                    currentState = GameStates.GREEN_PILLARS;
+                }
+                break;
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        switch (other.tag)
+        {
+            case "GreenCube":
+                other.gameObject.SetActive(false);
+                greenCubesCollected++;
+
+                switch (greenCubesCollected)
+                {
+                    case 3:
+                        fakeOuterSphere.SetActive(false);
+                        break;
+                    case 4:
+                        fakeInnerSphere.SetActive(false);
+                        break;
+                }
+                break;
+            case "InvisiblePillar":
+                other.gameObject.GetComponent<Renderer>().material = red;
+                other.isTrigger = false;
+                greenPillars.Add(other.gameObject);
+                break;
+        }
+
+        if (other.gameObject == finalCube) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject == twoMorePillars[1])
+        {
+            twoMorePillars[1].GetComponent<Renderer>().material = red;
+            middlePillar.SetActive(true);
+            middlePillar.GetComponent<Renderer>().material = red;
+        }
+    }
 }
