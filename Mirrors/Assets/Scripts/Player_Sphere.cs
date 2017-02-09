@@ -14,7 +14,7 @@ public class Player_Sphere : MonoBehaviour
     GameObject[] twoMorePillars;
 
     [SerializeField]
-    Material red, green;
+    Material white, green, gold;
 
     GameStates currentState;
 
@@ -56,7 +56,7 @@ public class Player_Sphere : MonoBehaviour
                 }
                 break;
             case "InvisiblePillar":
-                other.gameObject.GetComponent<Renderer>().material = red;
+                other.gameObject.GetComponent<Renderer>().material = white;
                 other.isTrigger = false;
                 greenPillars.Add(other.gameObject);
                 break;
@@ -69,9 +69,10 @@ public class Player_Sphere : MonoBehaviour
     {
         if (other.gameObject == twoMorePillars[1])
         {
-            twoMorePillars[1].GetComponent<Renderer>().material = red;
+            twoMorePillars[1].GetComponent<Renderer>().material = white;
             middlePillar.SetActive(true);
-            middlePillar.GetComponent<Renderer>().material = red;
+            middlePillar.GetComponent<Renderer>().material = gold;
+            finalCube.GetComponent<Renderer>().material = white;
         }
     }
 }
