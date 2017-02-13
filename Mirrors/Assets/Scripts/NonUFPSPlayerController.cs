@@ -39,8 +39,11 @@ public class NonUFPSPlayerController : MonoBehaviour
 
     void LookHorizontal()
     {
-        rotationX = Input.GetAxis("Mouse X") * cameraSensitivityX;
-        transform.Rotate(0, rotationX, 0);
+        if (!Input.GetButton("Jump"))
+        {
+            rotationX = Input.GetAxis("Mouse X") * cameraSensitivityX;
+            transform.Rotate(0, rotationX, 0);
+        }
     }
 
     void LookVertical()
