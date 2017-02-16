@@ -2,50 +2,38 @@ Initialize engine version: 5.4.0f3 (a6d8d714de6f)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA Quadro K2000 (ID=0xffe)
+    Renderer: NVIDIA GeForce GTX 880M (ID=0x1198)
     Vendor:   NVIDIA
-    VRAM:     1990 MB
+    VRAM:     3072 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
-Loading C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
-Platform assembly: C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
-Loading C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
-Platform assembly: C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\KDTree.dll (this message is harmless)
-Loading C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\KDTree.dll into Unity Child Domain
-Platform assembly: C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\pb_Stl.dll (this message is harmless)
-Loading C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\pb_Stl.dll into Unity Child Domain
-Platform assembly: C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\Triangle.dll (this message is harmless)
-Loading C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\Triangle.dll into Unity Child Domain
-- Completed reload, in  0.070 seconds
-Platform assembly: C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\workspace\dane\gdp\Mirrors\Mirrors_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
+Loading C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
+Platform assembly: C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
+Loading C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
+Platform assembly: C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\KDTree.dll (this message is harmless)
+Loading C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\KDTree.dll into Unity Child Domain
+Platform assembly: C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\Triangle.dll (this message is harmless)
+Loading C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\Triangle.dll into Unity Child Domain
+- Completed reload, in  0.291 seconds
+Platform assembly: C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Matvey\Desktop\gdp\Mirrors\Mirrors_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
-desktop: 1600x900 60Hz; virtual: 3200x900 at 0,0
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 0.788098 ms
+UnloadTime: 0.667960 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3338 -> priority: 1 
-  Thread -> id: f90 -> priority: 1 
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.672336 ms
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4657.
-Total: 0.558569 ms (FindLiveObjects: 0.113196 ms CreateObjectMapping: 0.078125 ms MarkObjects: 0.233806 ms  DeleteObjects: 0.133155 ms)
-
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.117423 ms
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 536.
-Total: 0.149122 ms (FindLiveObjects: 0.014826 ms CreateObjectMapping: 0.015682 ms MarkObjects: 0.071567 ms  DeleteObjects: 0.046761 ms)
-
+  Thread -> id: 2644 -> priority: 1 
+  Thread -> id: 347c -> priority: 1 
