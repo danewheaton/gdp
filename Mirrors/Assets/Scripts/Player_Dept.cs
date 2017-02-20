@@ -57,7 +57,7 @@ public class Player_Dept : MonoBehaviour
         {
             transform.position += new Vector3(0, 0, -10);
             transform.Rotate(new Vector3(0, 180, 0));
-            //bars.SetActive(true);
+            bars.SetActive(true);
         }
 
         if (other.tag == "SecondMirror")
