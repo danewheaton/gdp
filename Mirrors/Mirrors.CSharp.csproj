@@ -92,7 +92,10 @@
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
     <Compile Include="Assets\Scripts\Alex Canyon Scripts\Mirror1.cs" />
+    <Compile Include="Assets\Scripts\Alex Canyon Scripts\Mirror3trigger.cs" />
     <Compile Include="Assets\Scripts\Alex Canyon Scripts\mirror2Trigger.cs" />
+    <Compile Include="Assets\Scripts\Alex Canyon Scripts\mirror5Trigger.cs" />
+    <Compile Include="Assets\Scripts\Alex Canyon Scripts\mirror7Trigger.cs" />
     <Compile Include="Assets\Scripts\Dummy_Dept.cs" />
     <Compile Include="Assets\Scripts\EndDoor.cs" />
     <Compile Include="Assets\Scripts\MeshFlipper.cs" />
