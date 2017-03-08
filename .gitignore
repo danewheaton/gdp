@@ -3,3 +3,5 @@ Mirrors/Library/
 *.sln
 Mirrors/Temp/
 *.suo
+*.userprefs
+Mirrors/Mirrors.zip
