@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -115,4 +116,10 @@ public class Player_Dept : MonoBehaviour
 
         instructions.text = "";
     }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "Sphere")
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    } 
 }

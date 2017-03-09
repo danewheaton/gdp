@@ -6,6 +6,6 @@ public class EndDoor : MonoBehaviour
 {
     void OnCollisionEnter(Collision other)
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

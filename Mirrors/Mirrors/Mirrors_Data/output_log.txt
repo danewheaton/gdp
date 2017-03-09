@@ -1,0 +1,89 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   10.18.15.4248
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
+Loading C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
+Loading C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\KDTree.dll (this message is harmless)
+Loading C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\KDTree.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\Triangle.dll (this message is harmless)
+Loading C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\Triangle.dll into Unity Child Domain
+- Completed reload, in  0.284 seconds
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Dane\Documents\text\g\_ProjectFiles\_Versioned\GDP\Mirrors\Mirrors\Mirrors_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 4.603741 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: d04 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.111132 ms
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4816.
+Total: 2.761871 ms (FindLiveObjects: 0.852354 ms CreateObjectMapping: 0.193610 ms MarkObjects: 1.336148 ms  DeleteObjects: 0.374158 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.296738 ms
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 644.
+Total: 0.754849 ms (FindLiveObjects: 0.089574 ms CreateObjectMapping: 0.040588 ms MarkObjects: 0.224868 ms  DeleteObjects: 0.397952 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.633550 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 711.
+Total: 0.441339 ms (FindLiveObjects: 0.069979 ms CreateObjectMapping: 0.058316 ms MarkObjects: 0.241197 ms  DeleteObjects: 0.062048 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.704266 ms
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 13009.
+Total: 4.161935 ms (FindLiveObjects: 1.112213 ms CreateObjectMapping: 0.139493 ms MarkObjects: 0.740853 ms  DeleteObjects: 2.167975 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 20.193386 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 13022.
+Total: 2.258016 ms (FindLiveObjects: 1.093551 ms CreateObjectMapping: 0.180081 ms MarkObjects: 0.954058 ms  DeleteObjects: 0.027991 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 18.281536 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 13009.
+Total: 1.561483 ms (FindLiveObjects: 0.770244 ms CreateObjectMapping: 0.124097 ms MarkObjects: 0.632617 ms  DeleteObjects: 0.033590 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 19.770243 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 13009.
+Total: 4.349014 ms (FindLiveObjects: 2.518341 ms CreateObjectMapping: 0.567769 ms MarkObjects: 1.229312 ms  DeleteObjects: 0.031724 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 15.793054 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 13009.
+Total: 2.394244 ms (FindLiveObjects: 0.982050 ms CreateObjectMapping: 0.152556 ms MarkObjects: 1.233511 ms  DeleteObjects: 0.024259 ms)
+
