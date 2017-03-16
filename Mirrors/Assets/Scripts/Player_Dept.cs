@@ -32,7 +32,11 @@ public class Player_Dept : MonoBehaviour
     {
         if (currentState == PlayerStates.CAN_TELEPORT_TO_OFFICE &&
             Vector3.Angle(transform.forward, objectBeingLookedAt) < Camera.main.fieldOfView)
+        {
             transform.position += new Vector3(0, 0, 8.6f);
+            transform.Rotate(new Vector3(0, 180, 0));
+
+        }
 
         if (currentState == PlayerStates.CAN_PULL_MIRROR && Input.GetButton("Jump"))
         {
@@ -59,6 +63,7 @@ public class Player_Dept : MonoBehaviour
             transform.position += new Vector3(0, 0, -10);
             transform.Rotate(new Vector3(0, 180, 0));
             bars.SetActive(true);
+            other.gameObject.SetActive(false);
         }
 
         if (other.tag == "SecondMirror")
