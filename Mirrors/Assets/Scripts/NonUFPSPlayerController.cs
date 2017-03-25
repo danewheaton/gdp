@@ -17,6 +17,7 @@ public class NonUFPSPlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+        rb.angularDrag = 0;
 
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
@@ -35,15 +36,10 @@ public class NonUFPSPlayerController : MonoBehaviour
         Move();
     }
 
-
-
     void LookHorizontal()
     {
-        if (!Input.GetButton("Jump"))
-        {
-            rotationX = Input.GetAxis("Mouse X") * cameraSensitivityX;
-            transform.Rotate(0, rotationX, 0);
-        }
+        rotationX = Input.GetAxis("Mouse X") * cameraSensitivityX;
+        transform.Rotate(0, rotationX, 0);
     }
 
     void LookVertical()
